@@ -1,0 +1,9 @@
+{% raw %}{% extends "base.html" %}
+
+{% block page_header %}
+    {% endraw %}{{ cookiecutter.model_name }}{% raw %}
+{% endblock page_header %}
+
+{% block content %}
+    I am {% endraw %}{{ cookiecutter.model_name }}{% raw %} Number {{ object.pk }}!
+{% endblock content %}{% endraw %}

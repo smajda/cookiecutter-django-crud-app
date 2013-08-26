@@ -1,0 +1,5 @@
+# Cookiecutter Django App Template
+
+A [cookiecutter][] Django app template that sets up a simple app (`cookiecutter.app_name`) and initial Create, List, Detail, and Update generic views, forms, urls, templates, and tests for a specified model (`cookiecutter.model_name`).
+
+[cookiecutter]: http://cookiecutter.readthedocs.org

@@ -1,0 +1,14 @@
+{% raw %}{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block page_header %}
+    {% if {% endraw %}{{ cookiecutter.model_name|lower }}{% raw %} %}
+        Edit {% endraw %}{{ cookiecutter.model_name }}{% raw %}
+    {% else %}
+        Create {% endraw %}{{ cookiecutter.model_name }}{% raw %}
+    {% endif %}
+{% endblock page_header %}
+
+{% block content %}
+{% crispy form %}
+{% endblock content %}{% endraw %}
